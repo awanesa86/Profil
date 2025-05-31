@@ -9,7 +9,7 @@ const PointsHistoryPopup = ({ onClose }) => {
 
   return (
     <div className="fixed inset-0 bg-black/20 z-50 flex justify-center items-center px-4">
-      <div className="bg-[#F7FCDA] rounded-xl max-w-5xl w-full max-h-[90vh] p-6 relative flex flex-col">
+      <div className="bg-[#FCEDDA] rounded-xl max-w-5xl w-full max-h-[90vh] p-6 relative flex flex-col">
         {/* Close Button */}
         <button
           onClick={onClose}
